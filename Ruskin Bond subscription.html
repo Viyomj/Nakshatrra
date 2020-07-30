@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#form{
+			text-align: center;
+			margin-left:150px; 
+             }
+        fieldset{
+
+		color: red;
+			background-color:blue;
+			font-size: 20px
+	        font-family:algerian
+	        text-align:justify;
+	        font-weight: bold;
+		font-style: italic;/*normal/*oblique*/
+		text-decoration: underline;/*none/overline/line-through*/
+		text-transform: uppercase;/*lowercase/capitalize*/
+		align-self: 
+		padding: 10px;
+		margin: 10px;
+		border-style: solid;/*dotted/*dashed*/
+		float: left;
+       width: 1000px;
+        	height:1000px
+        }
+        legend{
+        	
+        	font-size: 40px;
+        	font-family: Aakar;
+        }
+        	body{
+			background-color: rgb(228,144,134);
+		}
+		h1{
+			text-align: center;
+			font-family: cursive;
+			font-size: 75px;
+			color: orange;
+		}
+		
+		input{
+			
+		color: red;
+			background-color: yellow;
+			font-size: 20px
+	        font-family:algerian
+	        text-align:justify;
+	        font-weight: bold;
+		font-style: italic;/*normal/*oblique*/
+		text-decoration: underline;/*none/overline/line-through*/
+		text-transform: uppercase;/*lowercase/capitalize*/
+		
+		background-color: yellow;
+		padding: 10px;
+		margin: 10px;
+		border-style: solid;/*dotted/*dashed*/
+		
+	}
+        
+        button{
+               color: red;
+			background-color: yellow;
+			font-size: 20px
+	        font-family:algerian
+	        text-align:justify;
+	        font-weight: bold;
+		font-style: italic;/*normal/*oblique*/
+		text-decoration: underline;/*none/overline/line-through*/
+		text-transform: uppercase;/*lowercase/capitalize*/
+		
+		background-color: yellow;
+		padding: 10px;
+		margin: 10px;
+		border-style: solid;/*dotted/*dashed*/
+		
+        }
+        textarea{
+        	color: red;
+			background-color: yellow;
+			font-size: 20px
+	        text-align:justify;
+	        font-weight: bold;
+		font-style: italic;/*normal/*oblique*/
+		text-decoration: underline;/*none/overline/line-through*/
+		text-transform: uppercase;/*lowercase/capitalize*/
+		
+		background-color: yellow;
+		padding: 10px;
+		margin: 10px;
+		border-style: solid;/*dotted/*dashed*/
+        }
+        textarea:hover{
+        	color: green;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+        input:hover{
+        	color: red;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+        fieldset:hover{
+        	color: red;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+        button:hover{
+        	color: green;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+        legend:hover{
+        	color: red;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+        h1:hover{
+        	color: red;
+        	text-decoration: underline;
+        	font-size: 25px
+        }
+	</style>
+</head>
+<body>
+<h1>Story Book Subscription Form</h1>
+<a href="Ruskin Bond.html">link to index</a>
+<div id="form">
+<fieldset>
+	
+	<input type="search" name="search" placeholder="search">
+	<input type="submit" value="submit"><br>
+<form method="post ">
+<label for="firstname">First name</label>
+<input type="text" name="firstname" id="firstname"><br>
+
+<label for="lastname">Last Name</label>
+<input type="text" name="lastname" id="lastname"><br>
+
+<label for="subjects">Subjects</label>
+<input list="sub" name="subjects" id="subjects">
+<datalist id="sub">
+	<option value="Science">Science</option>
+	<option value="Maths">Maths</option>
+	<option value="English">English</option>
+    <option value="SST">SST</option>
+    <option value="Hindi">Hindi</option>
+    <option value="French">French</option>
+    <option value="Sanskrit">Sanskrit</option>
+</datalist><br>
+
+<label for="dob">Date Of Birth</label>
+<input type="date" name="dob" id="dob"><br>
+
+<label for="age">Age</label>
+<input type="number" name="age" id="age" min="5" max="20"><br>
+
+<label>Gender</label>
+<input type="radio" name="Gender" id="male" value="male">
+<label for="male">Male</label>
+<input type="radio" name="Gender" value="female" id="female">
+<label for="female">Female</label><br>
+
+<label for="email">Email Address</label>
+<input type="email" name="email address" id="email" placeholder="abc@gmail.com"><br>
+
+<label for="password">Password</label>
+<input type="password" name="password" id="password"><br>
+
+<textarea name="comments" cols="20" rows="4" placeholder="enter queries and suggestions"></textarea><br>
+
+<input type="submit" value="submit">
+<button type="submit">Submit</button><br>
+<button type="reset">Reset the values</button><br>
+<button type="button">Normal</button>
+</fieldset>
+</div>
+</form>
+</body>
+</html>
